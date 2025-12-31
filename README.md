@@ -23,6 +23,151 @@ Bu depodaki çalışmaları yalnızca eğitsel bir egzersiz değil, aynı zamand
 
 **Makeblock** tarafından mühendisliği gerçekleştirilen mBlock, eğitim teknolojisinde bir paradigma değişimini temsil eder. Sadece basitleştirilmiş bir araç değil; sağlam **Scratch 3.0** mimarisi üzerine inşa edilmiş sofistike bir **grafik tabanlı programlama arayüzüdür**. Karmaşık sözdizimini (syntax) sezgisel görsel bloklara indirgeyerek, insan zihninin temel unsura odaklanmasını sağlar: mantık, akış ve sistem davranışı. Ancak asıl gücü ölçeklenebilirliğinde yatar; kullanıcıların görsel soyutlamalardan **Python**'un yüksek seviyeli ve hassas dünyasına geçiş yapmalarını sağlayan bir köprü görevi görür.
 
+### 📜 mBlock'un Tarihi ve Evrimi
+
+mBlock'un kökenleri, **Makeblock** şirketinin 2013 yılında Shenzhen, Çin'de kurulmasıyla başlar. Şirketin kurucusu **Jasen Wang**, STEM eğitimini demokratikleştirme vizyonuyla hareket ederek, donanım ve yazılımın kusursuz entegrasyonunu hedeflemiştir. İlk mBot robotu 2015 yılında piyasaya sürülmüş ve Kickstarter'da büyük başarı elde etmiştir.
+
+**mBlock 3** (2016): İlk nesil mBlock, MIT'nin Scratch 2.0 tabanlı bir fork olarak geliştirilmiştir. Arduino ve mBot ile sınırlı entegrasyon sunmuştur.
+
+**mBlock 5** (2018): Scratch 3.0 mimarisine geçiş yapılarak tamamen yeniden yazılmıştır. Bu sürümle birlikte:
+- **AI ve IoT eklentileri** ekosisteme dahil edilmiştir
+- **Python modu** tam entegre edilmiştir
+- **Bulut tabanlı proje yönetimi** eklenmiştir
+- **Çoklu platform desteği** (Windows, macOS, Web, iOS, Android) sağlanmıştır
+
+**mBlock 5.4+** (2020-günümüz): Makine öğrenmesi modelleri (TensorFlow.js entegrasyonu), gelişmiş IoT protokolleri (MQTT, HTTP API'leri) ve genişletilmiş donanım kütüphaneleri ile sürekli evrim geçirmektedir.
+
+### 🔄 Programlama Modları ve İş Akışları
+
+mBlock, farklı öğrenme seviyelerine ve proje gereksinimlerine göre optimize edilmiş üç temel programlama paradigması sunar:
+
+#### 1. **Blok Tabanlı Programlama (Block Mode)**
+- **Hedef Kitle:** 6-14 yaş arası öğrenciler, programlamaya yeni başlayanlar
+- **Özellikler:** Sürükle-bırak arayüzü, görsel geri bildirim, sözdizimi hatası yok
+- **Pedagojik Değer:** Algoritmik düşünceyi soyut sembollerden arındırarak öğretir
+- **Teknik Altyapı:** Blockly kütüphanesi üzerine inşa edilmiş, JSON tabanlı blok serileştirme
+
+#### 2. **Python Modu (Python Mode)**
+- **Hedef Kitle:** Lise ve üniversite öğrencileri, profesyonel geliştiriciler
+- **Özellikler:** Tam Python 3.x sözdizimi, kütüphane importları, OOP desteği
+- **Pedagojik Değer:** Endüstri standardı bir dile geçiş sağlar
+- **Teknik Altyapı:** MicroPython (mikrodenetleyiciler için) ve CPython (PC için) çalışma zamanları
+
+#### 3. **Hibrit Mod (Hybrid Workflow)**
+- **Özellik:** Blokları Python koduna dönüştürme ve tersine mühendislik
+- **Kullanım Senaryosu:** Blok mantığını öğrendikten sonra metin tabanlı kodlamaya geçiş
+- **Teknik Detay:** Transpiler mimarisi, blokları AST (Abstract Syntax Tree) yapısına çevirir
+
+#### Çalışma Modları: Canlı vs Yükleme
+
+**Canlı Mod (Live Mode / Stage Mode):**
+- Kod, bilgisayarda çalışır ve seri/Bluetooth üzerinden komutlar gönderilir
+- Gerçek zamanlı hata ayıklama ve değişken izleme
+- Sensör verilerinin anlık görselleştirilmesi
+- **Dezavantaj:** Sürekli bağlantı gerektirir
+
+**Yükleme Modu (Upload Mode):**
+- Kod, C++ veya MicroPython'a derlenir ve donanıma yazılır
+- Otonom çalışma, bilgisayar bağlantısı gerektirmez
+- Daha hızlı yürütme, düşük gecikme
+- **Kullanım:** Turnuva robotları, bağımsız IoT cihazları
+
+### 🤖 Donanım Ekosistemi: Kapsamlı Uyumluluk Matrisi
+
+mBlock'un gücü, geniş donanım desteğinden gelir. Her cihaz için özelleştirilmiş soyutlama katmanları mevcuttur:
+
+#### **Makeblock Robotları**
+| Robot | Özellikler | Sensörler | Kullanım Alanı |
+|-------|-----------|-----------|----------------|
+| **mBot** | 2 DC motor, ultrasonik, çizgi izleme | Ultrasonik, LDR, IR alıcı | Temel robotik, labirent çözme |
+| **mBot2/Neo** | Encoder motorlar, CyberPi MCU, WiFi/BT | 6-axis IMU, mikrofon, renkli LED matrix | AI tabanlı projeler, IoT |
+| **Ranger** | 3 tekerlekli, modüler yapı | Sıcaklık, ses, ışık | İleri kinematik, arazi robotları |
+| **Codey Rocky** | Eğitim odaklı, sesli asistan | Renk sensörü, IR, gyro | AI eğitimi, oyunlaştırma |
+| **Halocode** | WiFi mesh ağ, IoT odaklı | Mikrofon, LED ring, hareket | IoT swarm robotics, akıllı ev |
+
+#### **Açık Kaynak Platformlar**
+- **Arduino Ailesi:** Uno, Mega, Nano, Leonardo (ATmega tabanlı)
+- **Micro:bit:** BBC'nin eğitim kartı, BLE desteği
+- **ESP32/ESP8266:** WiFi/BT entegreli, IoT projeleri için ideal
+- **Raspberry Pi:** GPIO kontrolü (sınırlı destek)
+
+#### **Sensör ve Aktüatör Kütüphanesi**
+- **Sensörler:** Ultrasonik (HC-SR04), LDR, DHT11/22 (sıcaklık/nem), MPU6050 (IMU), kamera modülleri
+- **Aktüatörler:** Servo motorlar, step motorlar, RGB LED'ler, buzzer'lar, OLED ekranlar
+
+### 🧠 Yapay Zeka ve IoT Eklentileri: Gelecek Nesil Yetenekler
+
+mBlock, temel robotikten öteye geçerek modern teknolojilerin öncü alanlarına kapı açar:
+
+#### **Yapay Zeka Modülleri**
+
+**1. Görüntü Tanıma (Computer Vision)**
+- **Teknoloji:** TensorFlow.js tabanlı, tarayıcıda çalışan ML modelleri
+- **Yetenekler:** 
+  - Nesne tespiti (COCO dataset, 80+ sınıf)
+  - Yüz tanıma ve duygu analizi
+  - Renk ve şekil sınıflandırma
+  - QR kod okuma
+- **Kullanım Örneği:** Kameralı robotun belirli nesneleri takip etmesi
+
+**2. Ses Tanıma (Speech Recognition)**
+- **Teknoloji:** Web Speech API entegrasyonu
+- **Yetenekler:**
+  - Sesli komut algılama (20+ dil desteği)
+  - Metin-konuşma dönüşümü (TTS)
+  - Ses tonu analizi
+- **Kullanım Örneği:** Sesle kontrol edilen ev otomasyonu
+
+**3. Makine Öğrenmesi Eğitimi**
+- **Platform:** Teachable Machine entegrasyonu
+- **Süreç:** Kullanıcılar kendi veri setlerini oluşturarak özel modeller eğitebilir
+- **Kullanım Örneği:** El işaretlerini tanıyan robotik kol
+
+#### **IoT ve Bulut Servisleri**
+
+**1. Cloud Message (Bulut Mesajlaşma)**
+- **Protokol:** MQTT tabanlı pub/sub mimarisi
+- **Kullanım:** Uzak robotlar arası iletişim, global veri paylaşımı
+- **Örnek:** Farklı şehirlerdeki iki robotun senkronize hareketi
+
+**2. Veri Analizi ve Kayıt**
+- **Google Sheets Entegrasyonu:** Sensör verilerini bulutta depolama
+- **ThingSpeak:** Zaman serisi verileri için IoT platformu
+- **Kullanım:** Uzun süreli çevre izleme projeleri
+
+**3. HTTP API'leri**
+- **Özellik:** RESTful API'lere GET/POST istekleri
+- **Kullanım:** Hava durumu verileri çekme, sosyal medya botları
+
+### 🎓 Eğitim Felsefesi: Yapılandırmacılık ve Proje Tabanlı Öğrenme
+
+mBlock'un pedagojik temelleri, modern eğitim teorilerinin sentezine dayanır:
+
+#### **Yapılandırmacı Yaklaşım (Constructivism)**
+Jean Piaget ve Seymour Papert'in teorilerine dayanan bu yaklaşım, öğrencilerin bilgiyi pasif olarak almak yerine aktif olarak inşa etmelerini savunur. mBlock'ta:
+- **Deneme-Yanılma:** Öğrenciler kodlarını test eder, hatalardan öğrenir
+- **Somutlaştırma:** Soyut kavramlar (döngüler, değişkenler) fiziksel robot hareketleriyle somutlaşır
+- **Kişiselleştirme:** Her öğrenci kendi hızında ilerler
+
+#### **Proje Tabanlı Öğrenme (PBL)**
+Gerçek dünya problemlerine çözüm üretme odaklı:
+- **Problem Tanımlama:** "Engelden kaçan bir robot nasıl tasarlanır?"
+- **Araştırma:** Sensör teknolojileri, algoritma araştırması
+- **Prototipleme:** mBlock ile hızlı iterasyon
+- **Sunum:** Projenin toplulukla paylaşımı
+
+#### **STEM Entegrasyonu**
+- **Science (Fen):** Ultrasonik dalgalar, ışık fiziği
+- **Technology (Teknoloji):** Mikrodenetleyiciler, kablosuz iletişim
+- **Engineering (Mühendislik):** Mekanik tasarım, sistem optimizasyonu
+- **Mathematics (Matematik):** Geometri (robot navigasyonu), istatistik (sensör verileri)
+
+#### **21. Yüzyıl Becerileri**
+- **Eleştirel Düşünme:** Algoritma optimizasyonu
+- **İşbirliği:** Takım projeleri, açık kaynak katkıları
+- **Yaratıcılık:** Özgün proje fikirleri
+- **İletişim:** Teknik dokümantasyon yazma
+
 ### 🎓 Derin Teknik Mimari ve Ölçeklenebilir Bileşenler
 
 - **Çok Cihazlı Donanım Soyutlaması:** mBlock'un temel gücü evrensel uyumluluğudur. **mBot serisi (mBot, mBot2/Neo)**, **Ranger**, **Codey Rocky**, **Halocode** gibi geniş bir donanım yelpazesi ve **Arduino (Uno, Mega, Nano)**, **Micro:bit** gibi endüstri standardı kartlar için standartlaştırılmış bir soyutlama katmanı sağlar. Bu, geliştiricilerin mantıksal kurguları farklı robotik morfolojilere minimum eforla taşımasına olanak tanır.
