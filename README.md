@@ -1,91 +1,91 @@
-# mBlock Robotic and AI Training: A Masterclass in Visual Programming and Intelligent Systems
+# mBlock Robotik ve Yapay Zeka Eğitimi: Görsel Programlama ve Akıllı Sistemlerde Uzmanlık Sınıfı
 
-This repository serves as a comprehensive, multi-dimensional ecosystem dedicated to the mastery of **mBlock**, focusing on the synergistic integration of robotics, artificial intelligence, and sophisticated algorithmic thinking. It is designed to navigate the trajectory from foundational block-based logic to advanced, industry-relevant technological paradigms.
+Bu depo, robotik, yapay zeka ve karmaşık algoritmik düşüncenin sinerjik entegrasyonuna odaklanan, **mBlock** platformunda uzmanlaşmaya adanmış kapsamlı ve çok boyutlu bir ekosistemdir. Temel blok tabanlı mantıktan ileri düzey, endüstriyel standartlardaki teknolojik paradigmalara geçiş sürecini yönetmek üzere tasarlanmıştır.
 
 ---
 
-## 👤 Author Information / Yazar Bilgileri: The Architect's Vision
+## 👤 Yazar Bilgileri: Bir Mimarm Gözünden Teknoloji Vizyonu
 
 ### Bahattin Yunus Çetin
-**IT Architect & Academic Researcher in Information Systems**
+**BT Mimarı (IT Architect) ve Bilişim Sistemleri Akademik Araştırmacısı**
 
-Bahattin Yunus Çetin is a distinguished IT Architect and dedicated university student based in the historic and strategically significant district of **Of, Trabzon**. His academic journey and professional philosophy are rooted in the belief that technology should be both accessible and profoundly sophisticated. As an IT Architect, he approaches system design with a focus on scalability, efficiency, and the seamless convergence of hardware and software.
+Bahattin Yunus Çetin, Trabzon'un tarihi ve stratejik öneme sahip ilçesi **Of**'ta ikamet eden, seçkin bir BT Mimarı ve üniversite öğrencisidir. Akademik yolculuğu ve profesyonel felsefesi, teknolojinin hem erişilebilir hem de son derece sofistike olması gerektiği inancına dayanmaktadır. Bir BT Mimarı olarak sistem tasarımına; ölçeklenebilirlik, verimlilik ve donanım-yazılım arasındaki kusursuz yakınsama odaklı bir perspektifle yaklaşmaktadır.
 
-His work in this repository is not merely an educational exercise but a manifestation of a broader vision: to bridge the gap between abstract computational concepts and physical, robotic reality. Based in the unique technological landscape of Trabzon, Bahattin is actively contributing to the local and global STEM community by curating resources that empower the next generation of engineers and AI researchers. His dual role as a student and an architect allows him to synthesize theoretical rigor with practical, solution-oriented implementation.
+Bu depodaki çalışmaları yalnızca eğitsel bir egzersiz değil, aynı zamanda daha geniş bir vizyonun yansımasıdır: Soyut bilişimsel kavramlar ile fiziksel, robotik gerçeklik arasındaki boşluğu doldurmak. Trabzon'un özgün teknolojik dokusunda faaliyet gösteren Bahattin, yeni nesil mühendisleri ve yapay zeka araştırmacılarını güçlendiren kaynaklar sunarak yerel ve küresel STEM topluluğuna aktif olarak katkıda bulunmaktadır. Öğrenci ve mimar olarak üstlendiği çift yönlü rol, teorik titizliği pratik ve çözüm odaklı uygulamalarla sentezlemesine olanak tanımaktadır.
 
-#### 🔗 Connect / Global Professional Network
-- **LinkedIn:** [bahattinyunus](https://www.linkedin.com/in/bahattinyunus/) — *Engagement in professional architectural discussions and IT strategy.*
-- **GitHub:** [bahattinyunus](https://github.com/bahattinyunus) — *Exploration of open-source contributions, system architecture, and intelligent automation.*
-
----
-
-## 🔧 mBlock: The Gateway to Advanced Computational Thinking
-
-mBlock, engineered by **Makeblock**, represents a paradigm shift in educational technology. It is not merely a simplified tool but a sophisticated, **graphik-based programming interface** that sits atop the robust **Scratch 3.0** architecture. By abstracting complex syntax into intuitive visual blocks, it allows the human mind to focus on the essential: logic, flow, and system behavior. However, its true power lies in its scalability—it serves as a bridge, allowing users to transition from visual abstractions to the high-level, interpreted precision of **Python**.
-
-### 🎓 Deep Technical Architecture and Scalable Components
-
-- **Multi-Device Hardware Abstraction:** mBlock's core strength is its universal compatibility. It provides a standardized abstraction layer for a vast array of hardware, including the **mBot series (mBot, mBot2/Neo)**, **Ranger**, **Codey Rocky**, **Halocode**, and industry-standard boards like **Arduino (Uno, Mega, Nano)** and **Micro:bit**. This allows developers to port logic across different robotic morphologies with minimal friction.
-- **Bilingual Coding Environment:** The environment supports a unique "Live" and "Upload" mode. In Live mode, Python scripts or blocks communicate with the hardware via serial/Bluetooth protocols, enabling real-time debugging. In Upload mode, the logic is compiled and flashed onto the microcontroller for autonomous execution.
-- **Cognitive Development Framework:** The platform is engineered to support the **Scaffolding** method of learning. It introduces variables, conditional logic, and iterative loops in a way that aligns with the developmental psychology of computational thinking.
-- **Advanced Technological Integration:** Beyond basic movements, mBlock integrates cutting-edge **AI (Artificial Intelligence)** and **IoT (Internet of Things)** extensions. This includes cloud-based Cloud Message services, machine learning models for image/speech recognition, and data logging to Google Sheets, effectively turning a simple robot into a data-driven node in a global network.
+#### 🔗 Küresel Profesyonel Ağ
+- **LinkedIn:** [bahattinyunus](https://www.linkedin.com/in/bahattinyunus/) — *Profesyonel mimari tartışmalar ve BT stratejileri üzerine etkileşim.*
+- **GitHub:** [bahattinyunus](https://github.com/bahattinyunus) — *Açık kaynak katkıları, sistem mimarisi ve akıllı otomasyon keşifleri.*
 
 ---
 
-## 🚀 The Strategic Objective of this Repository
+## 🔧 mBlock: İleri Düzey Bilişimsel Düşünceye Açılan Kapı
 
-The existence of this repository is predicated on the philosophy of **Open-Source Pedagogical Excellence**. It is a curated laboratory where complex ideas are distilled into manageable yet profound projects.
+**Makeblock** tarafından mühendisliği gerçekleştirilen mBlock, eğitim teknolojisinde bir paradigma değişimini temsil eder. Sadece basitleştirilmiş bir araç değil; sağlam **Scratch 3.0** mimarisi üzerine inşa edilmiş sofistike bir **grafik tabanlı programlama arayüzüdür**. Karmaşık sözdizimini (syntax) sezgisel görsel bloklara indirgeyerek, insan zihninin temel unsura odaklanmasını sağlar: mantık, akış ve sistem davranışı. Ancak asıl gücü ölçeklenebilirliğinde yatar; kullanıcıların görsel soyutlamalardan **Python**'un yüksek seviyeli ve hassas dünyasına geçiş yapmalarını sağlayan bir köprü görevi görür.
 
-1. **Algorithmic Hardening:** To provide a rigorous framework where basic coding concepts are "hardened" through practical, failure-prone physical implementations.
-2. **Visionary Inspiration:** To serve as a lighthouse for other developers and educators, demonstrating that mid-level complexity can be achieved with block-based tools when combined with architectural discipline.
-3. **Knowledge Sovereignty:** By documenting these projects, we promote a culture of self-sufficiency and deep understanding of the underlying electronics and logic.
-4. **Holistic STEM Integration:** Each project is a nexus of mathematics, physics (kinematics, electronics), and information theory, fostering a multidisciplinary mindset.
+### 🎓 Derin Teknik Mimari ve Ölçeklenebilir Bileşenler
+
+- **Çok Cihazlı Donanım Soyutlaması:** mBlock'un temel gücü evrensel uyumluluğudur. **mBot serisi (mBot, mBot2/Neo)**, **Ranger**, **Codey Rocky**, **Halocode** gibi geniş bir donanım yelpazesi ve **Arduino (Uno, Mega, Nano)**, **Micro:bit** gibi endüstri standardı kartlar için standartlaştırılmış bir soyutlama katmanı sağlar. Bu, geliştiricilerin mantıksal kurguları farklı robotik morfolojilere minimum eforla taşımasına olanak tanır.
+- **Çift Dilli Kodlama Ortamı:** Platform, benzersiz "Canlı" ve "Yükle" modlarını destekler. Canlı modda, Python betikleri veya bloklar seri/Bluetooth protokolleri üzerinden donanımla gerçek zamanlı iletişim kurarak anlık hata ayıklama (debugging) imkanı sağlar. Yükle modunda ise mantık derlenerek otonom yürütme için mikrodenetleyiciye yazılır.
+- **Bilişimsel Gelişim Çerçevesi:** Platform, öğrenmenin **İskele Kurma (Scaffolding)** yöntemini destekleyecek şekilde tasarlanmıştır. Değişkenler, koşullu mantık ve yinelemeli döngüler, bilişimsel düşünmenin gelişimsel psikolojisiyle uyumlu bir şekilde sunulur.
+- **İleri Teknolojik Entegrasyon:** Temel hareketlerin ötesinde mBlock; bulut tabanlı mesajlaşma servisleri, görüntü/ses tanıma için makine öğrenmesi modelleri ve Google Sheets veri kaydı (data logging) gibi en güncel **Yapay Zeka (AI)** ve **Nesnelerin İnterneti (IoT)** eklentilerini entegre ederek basit bir robotu küresel bir ağın veri odaklı bir düğümü haline getirir.
 
 ---
 
-## 📁 The Project Portfolio: A Taxonomy of Robotic Intelligence
+## 🚀 Bu Deponun Stratejik Hedefi
 
-Each directory within this repository is a specialized module, complete with `.sb3` source files and comprehensive technical documentation.
+Bu deponun varlığı, **Açık Kaynak Pedagojik Mükemmeliyet** felsefesi üzerine kuruludur. Karmaşık fikirlerin yönetilebilir ancak derinlikli projelere dönüştürüldüğü küratörlü bir laboratuvar niteliğindedir.
 
-| Project Category | Technical Depth and Educational Outcome |
+1. **Algoritmik Sertleşme:** Temel kodlama kavramlarının, pratik ve fiziksel uygulamalar yoluyla "sertleştiği" titiz bir çerçeve sunmak.
+2. **Vizyoner İlham:** Blok tabanlı araçlarla mimari disiplin birleştirildiğinde orta ve ileri düzey karmaşıklığa nasıl ulaşılabileceğini göstererek diğer geliştiricilere ve eğitimcilere bir deniz feneri olmak.
+3. **Bilgi Egemenliği:** Bu projeleri belgeleyerek, temel elektronik ve mantık konusunda derin bir anlayışı ve kendi kendine yetebilme kültürünü teşvik etmek.
+4. **Bütünsel STEM Entegrasyonu:** Her proje; matematik, fizik (kinematik, elektronik) ve bilgi teorisinin bir kesişim noktası olup disiplinler arası bir zihniyeti beslemektedir.
+
+---
+
+## 📁 Proje Portföyü: Robotik Zekanın Taksonomisi
+
+Bu depodaki her dizin; `.sb3` kaynak dosyaları ve kapsamlı teknik dokümantasyonla donatılmış uzmanlaşmış bir modüldür.
+
+| Proje Kategorisi | Teknik Derinlik ve Eğitsel Kazanım |
 |:---:|---|
-| 🚗 **Autonomous Navigation (Engelden Kaçan)** | **Complexity: Medium.** Implements PID-like logic for obstacle avoidance using ultrasonic time-of-flight sensors. Teaches reactive robotic behavior and real-world noise filtering. |
-| 🎶 **Acoustic Wave Modulation (Müzik Kutusu)** | **Complexity: Low.** Focuses on frequency modulation and pulse-width modulation (PWM) to generate complex melodies. Teaches timing, arrays (lists), and signal processing basics. |
-| 🔆 **Adaptive Environmental Response (Işık Kontrolü)** | **Complexity: Medium.** Utilizes Photoresistor (LDR) analog-to-digital conversion. Covers thresholding, hysteresis in sensor data, and closed-loop control systems. |
-| 🎲 **Stochastic Process Simulation (Zar Atma)** | **Complexity: Low.** Explores the mathematical concept of randomness within a deterministic system. Teaches the use of pseudo-random number generators and UI state management. |
-| 🧠 **Human-Machine Interface (Tahmin Oyunu)** | **Complexity: Medium.** A study in interactive logic and conditional branching. Focuses on the feedback loop between the user and the system, teaching optimal search algorithms (binary search logic). |
+| 🚗 **Otonom Navigasyon (Engelden Kaçan)** | **Zorluk: Orta.** Ultrasonik mesafe sensörleri kullanarak engel kaçınma için PID benzeri bir mantık uygular. Reaktif robot davranışlarını ve gerçek dünya gürültü filtrelemesini öğretir. |
+| 🎶 **Akustik Dalga Modülasyonu (Müzik Kutusu)** | **Zorluk: Düşük.** Karmaşık melodiler oluşturmak için frekans modülasyonu ve darbe genişlik modülasyonuna (PWM) odaklanır. Zamanlama, diziler (listeler) ve temel sinyal işlemeyi öğretir. |
+| 🔆 **Adaptif Çevresel Tepki (Işık Kontrolü)** | **Zorluk: Orta.** Fotodirenç (LDR) analog-dijital dönüşümünü kullanır. Eşikleme, sensör verilerinde histeresiz ve kapalı döngü kontrol sistemlerini kapsar. |
+| 🎲 **Stokastik Süreç Simülasyonu (Zar Atma)** | **Zorluk: Düşük.** Deterministik bir sistem içindeki rastgelelik kavramını matematiksel olarak inceler. Sahte rastgele sayı üreteçleri ve arayüz durum yönetimini öğretir. |
+| 🧠 **İnsan-Makine Etkileşimi (Tahmin Oyunu)** | **Zorluk: Orta.** Etkileşimli mantık ve koşullu dallanma üzerine bir çalışma. Kullanıcı ve sistem arasındaki geri bildirim döngüsüne odaklanarak optimal arama algoritmalarını (ikili arama mantığı) öğretir. |
 
 ---
 
-## ⚙️ Deployment, System Requirements, and Utilization
+## ⚙️ Dağıtım, Sistem Gereksinimleri ve Kullanım
 
-To fully engage with this ecosystem, follow this rigorous deployment protocol:
+Bu ekosisteme tam olarak dahil olmak için aşağıdaki kurulum protokolünü izleyin:
 
-1. **Environment Preparation:** Download the latest stable iteration of the mBlock IDE from the [Official Makeblock Repository](https://www.mblock.cc/en-us). Ensure that you have the appropriate drivers for your target hardware (e.g., CH340 for many Arduino clones).
-2. **Repository Synchronization:** Klon the repository to your local development environment using the following command to maintain version history:
+1. **Ortam Hazırlığı:** mBlock IDE'nin en son kararlı sürümünü [Resmi Makeblock Deposu](https://www.mblock.cc/en-us) üzerinden indirin. Hedef donanımınız için uygun sürücülerin (örneğin birçok Arduino klonu için CH340) kurulu olduğundan emin olun.
+2. **Repo Senkronizasyonu:** Versiyon geçmişini korumak için depoyu yerel geliştirme ortamınıza aşağıdaki komutla kopyalayın:
    ```bash
    git clone https://github.com/bahattinyunuscetin/m_block_btk.git
    ```
-3. **Project Instantiation:** Launch mBlock, navigate to `File > Open`, and import the `.sb3` file from the specific project directory. Ensure the correct "Device" or "Sprite" is selected to match the project's architectural requirements.
+3. **Proje Başlatma:** mBlock'u açın, `Dosya > Aç` yolunu izleyerek ilgili proje dizinindeki `.sb3` dosyasını içe aktarın. Seçilen "Cihaz" veya "Kukla"nın projenin mimari gereksinimleriyle eşleştiğinden emin olun.
 
 ---
 
-## 🤝 The Open-Source Social Contract
+## 🤝 Açık Kaynak Sosyal Sözleşmesi
 
-This repository is a living entity. Contributions are welcomed through a structured **Collaborative Development Lifecycle**:
+Bu depo yaşayan bir organizmadır. Katkılar, yapılandırılmış bir **Geliştirme Yaşam Döngüsü** çerçevesinde memnuniyetle karşılanır:
 
-- **Refinement:** If you identify a sub-optimal logic block or a more efficient sensor-reading algorithm, please submit a Pull Request.
-- **Expansion:** New project ideas focusing on AI, IoT, or advanced kinematics are highly encouraged.
-- **Dialogue:** Use the 'Issues' tab for philosophical discussions on educational technology or specific technical troubleshooting.
-
----
-
-## ⭐ Support the Technological Renaissance
-
-If this repository has provided you with value, consider supporting its growth through these standard open-source gestures:
-- **Astral Recognition:** Give the repository a ⭐ (Star) to improve its visibility within the GitHub ecosystem.
-- **Knowledge Propagation:** Share this resource with your local maker communities, schools, and engineering forums.
-- **Collaborative Growth:** Fork the repository and build upon Bahattin's foundations to create something unique.
+- **İyileştirme:** Verimsiz bir mantık bloğu veya daha etkili bir sensör okuma algoritması tespit ederseniz lütfen bir Pull Request gönderin.
+- **Genişletme:** AI, IoT veya ileri kinematik odaklı yeni proje fikirleri hararetle desteklenmektedir.
+- **Diyalog:** Eğitim teknolojileri üzerine felsefi tartışmalar veya özel teknik sorun giderme işlemleri için 'Issues' sekmesini kullanın.
 
 ---
-*This repository is a testament to the power of structured learning and the vision of its architect, Bahattin Yunus Çetin. Developed in synergy with the BTK Akademi framework to democratize high-level technology education.*
+
+## ⭐ Teknolojik Rönesans'ı Destekleyin
+
+Bu depo size değer kattıysa, büyümesini desteklemek için şu standart açık kaynak adımlarını düşünebilirsiniz:
+- **Yıldızla Ödüllendirme:** GitHub ekosistemindeki görünürlüğünü artırmak için depoya bir ⭐ (Yıldız) verin.
+- **Bilgiyi Yayma:** Bu kaynağı yerel üretici (maker) toplulukları, okullar ve mühendislik forumları ile paylaşın.
+- **Birlikte Büyüme:** Depoyu çatallayın (fork) ve Bahattin'in temelleri üzerine özgün projeler inşa edin.
+
+---
+*Bu depo, yapılandırılmış öğrenmenin gücünün ve mimarı Bahattin Yunus Çetin'in vizyonunun bir kanıtıdır. Üst düzey teknoloji eğitimini demokratikleştirmek amacıyla BTK Akademi çerçevesiyle sinerji içinde geliştirilmiştir.*
