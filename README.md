@@ -1,6 +1,19 @@
-# mBlock Kurs Projeleri
+# mBlock Robotic and AI Training
 
-Bu repo, **mBlock** platformunda geliştirdiğim kurs projelerini içermektedir. Projeler, özellikle kodlamaya yeni başlayanlar ve STEM (Fen, Teknoloji, Mühendislik, Matematik) alanında eğitim almak isteyen öğrenciler için hazırlanmıştır. Hem eğlenceli hem öğretici olan bu projelerle, temel programlama yapılarından sensör kullanımına kadar birçok konuyu uygulamalı olarak öğrenebilirsiniz.
+Bu repo, **mBlock** platformunda geliştirilen projeleri ve eğitim materyallerini içermektedir. Projeler, temel programlama yapılarından yapay zeka ve robotik uygulamalarına kadar geniş bir yelpazeyi kapsamaktadır.
+
+---
+
+## 👤 Author Information / Yazar Bilgileri
+
+### Bahattin Yunus Çetin
+**IT Architect & University Student**
+
+Bahattin is a dedicated IT Professional and student based in Of, Trabzon. He focuses on the intersection of architecture and technology, specializing in robotic systems and AI-driven solutions.
+
+#### 🔗 Connect / İletişim
+- **LinkedIn:** [bahattinyunus](https://www.linkedin.com/in/bahattinyunus/)
+- **GitHub:** [bahattinyunus](https://github.com/bahattinyunus)
 
 ---
 
@@ -29,22 +42,11 @@ mBlock, **Makeblock** tarafından geliştirilen, çocuklar ve başlangıç seviy
 - Maker kültürüne ilgi duyan herkes
 - Üniversiteye hazırlanan teknoloji meraklıları
 
-### 🌍 Kullanım Alanları
-
-- Okullarda kodlama müfredatı
-- Kodlama atölyeleri ve maker etkinlikleri
-- Robotik turnuvalar (MakeX, First LEGO League gibi)
-- Evde bireysel öğrenme
-
-### 📚 Öğrenme Yaklaşımı
-
-mBlock, öğrenme sürecini oyunlaştırma, problem çözme ve proje tabanlı eğitim gibi yaklaşımlarla destekler. Çocuklar, bir görevi yerine getirirken hem mantıksal düşünmeyi öğrenir hem de eğlenir.
-
 ---
 
 ## 🚀 Bu Reponun Amacı
 
-Bu repo, mBlock platformu üzerinde tamamladığım ve örnek teşkil etmesini istediğim projeleri bir araya getirmektedir. Reponun temel amaçları şunlardır:
+Bu repo, mBlock platformu üzerinde tamamlanan ve örnek teşkil etmesi hedeflenen projeleri bir araya getirmektedir.
 
 1. Öğrenilen bilgileri pekiştirmek,
 2. Başkalarına ilham vermek ve öğretici bir kaynak sunmak,
@@ -55,7 +57,7 @@ Bu repo, mBlock platformu üzerinde tamamladığım ve örnek teşkil etmesini i
 
 ## 📁 Proje Listesi
 
-Her bir klasör, bağımsız bir projeyi temsil etmektedir. Her klasör içinde ilgili .sb3 dosyaları (mBlock projeleri) ve açıklayıcı README belgeleri bulunmaktadır.
+Her bir klasör, bağımsız bir projeyi temsil etmektedir.
 
 | Proje Adı | Açıklama |
 |----------|----------|
@@ -66,20 +68,6 @@ Her bir klasör, bağımsız bir projeyi temsil etmektedir. Her klasör içinde 
 | 🧠 **Tahmin Oyunu** | Kullanıcının sayı tahmini yapabileceği eğlenceli bir oyun |
 
 > Not: Projeler mBlock 5 sürümüyle geliştirilmiştir. Açmak için .sb3 dosyasını mBlock üzerinden import edebilirsiniz.
-
----
-
-## 🧠 Neler Öğreneceksiniz?
-
-Bu projeleri inceleyerek:
-
-- Değişkenler, koşullar (if-else), döngüler gibi temel algoritma yapıları,
-- Sensör kullanımı ve donanım kontrollü kodlama,
-- Olay odaklı programlama yapısı,
-- Geliştirici bakış açısı kazanma,
-- Python ile blok kodların ilişkisini anlama
-
-konularında bilgi sahibi olabilirsiniz.
 
 ---
 
@@ -94,14 +82,6 @@ git clone https://github.com/bahattinyunuscetin/m_block_btk.git
 
 ---
 
-## 📌 Ekstra Bilgiler
-
-- mBlock içerisinde Python kodlarına geçiş yapmak için "Kodları Görüntüle" özelliğini kullanabilirsiniz.
-- Projeler sürekli güncellenecektir. Yeni içerikler için repoyu takip etmeyi unutmayın.
-- Kodlar eğitim amaçlıdır; özgün hale getirerek kendi projelerinizi de oluşturabilirsiniz.
-
----
-
 ## 🤝 Katkıda Bulun
 
 Projeleri geliştirmek veya yeni projeler eklemek isterseniz PR (Pull Request) gönderebilir veya Issue kısmından önerilerinizi paylaşabilirsiniz.
@@ -109,13 +89,6 @@ Projeleri geliştirmek veya yeni projeler eklemek isterseniz PR (Pull Request) g
 ```md
 "Paylaşmak, öğrenmenin en güzel yoludur."
 ```
-
----
-
-## 📬 İletişim
-
-Herhangi bir soru, öneri ya da iş birliği için benimle iletişime geçebilirsiniz:
-
 
 ---
 
